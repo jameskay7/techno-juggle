@@ -29,7 +29,7 @@ def shuffling(choice):
             playsound(randomSelect)
 
 shuffling(choice)
-     
+#if you type in the file name and press enter, the song will play.
 while not song_shuffled:
     songSelect = input("What song would you like to hear? ")
     if choice == "no":
